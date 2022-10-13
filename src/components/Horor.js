@@ -1,15 +1,15 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
-import another from "../assets/images/another.jpg";
+import another from "../assets/images/black.jpg";
 
-const Trending = () => {
+const Horor = () => {
   return (
     <div>
       <Container>
         <div className="text-white mb-3 p-3">
-          <h1>Trending Movie</h1>
+          <h1>Horror Movie</h1>
         </div>
         <Row>
-          <Col md={4} id="trending">
+          <Col md={4} sm={6} id="horror">
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -21,7 +21,7 @@ const Trending = () => {
               <Card.Text>Last updated 3 mins ago</Card.Text>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} sm={6}>
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -33,7 +33,7 @@ const Trending = () => {
               <Card.Text>Last updated 3 mins ago</Card.Text>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} sm={6}>
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -46,7 +46,7 @@ const Trending = () => {
             </Card>
           </Col>
 
-          <Col md={4}>
+          <Col md={4} sm={6}>
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -58,7 +58,7 @@ const Trending = () => {
               <Card.Text>Last updated 3 mins ago</Card.Text>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} sm={6}>
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -70,7 +70,7 @@ const Trending = () => {
               <Card.Text>Last updated 3 mins ago</Card.Text>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} sm={6}>
             <Card className="bg-dark text-white MovieImage text-center">
               <Card.Img
                 src={another}
@@ -87,4 +87,4 @@ const Trending = () => {
     </div>
   );
 };
-export default Trending;
+export default Horor;

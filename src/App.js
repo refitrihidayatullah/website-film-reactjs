@@ -2,6 +2,7 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import Intro from "./components/Intro";
 import Trending from "./components/Trending";
+import Horor from "./components/Horor";
 import "./style/landingPage.css";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* trending section */}
       <div className="trending">
         <Trending />
+        <Horor />
       </div>
       {/* end trending section */}
     </div>
